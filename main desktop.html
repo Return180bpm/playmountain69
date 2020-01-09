@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+
+* {
+    font-family: arial;
+}
+
+p {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div{
+    position: relative;
+}
+
+.box {
+    margin-bottom:0px;
+    height: 100px;
+}
+
+.title {
+    font-size:55;
+}
+
+.text {
+    display: none;
+    font-size: 30;
+}
+
+.box.one {
+    background: pink;
+}
+
+.box.two {
+    background: light blue;
+}
+
+.box.three {
+    background: yellow;
+}
+
+.box:hover .text{
+    display: block;
+}
+
+.box:hover .title {
+    display: none;
+}
+
+.box.one:hover {
+    background: red;
+}
+
+.box.two:hover {
+    background: green;
+}
+
+.box.three:hover {
+    background: orange;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id='container'>
+
+    <div class = 'box one'>
+        <p class='title one'>&</p>
+        <p class='text one'>yo</p>
+    </div>
+
+    <div class = 'box two'>
+        <p class='title one'>collective</p>
+        <p class='text one'>yoo2</p> 
+    </div>
+
+    <div class = 'box three'>
+        <p class='title one'>daughters</p>
+        <p class='text one'>yo3333</p>
+    </div>
+</div>
+
+</body>
+</html>
